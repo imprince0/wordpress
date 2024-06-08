@@ -30,7 +30,8 @@
 		"create-github-release": "env-cmd --silent node scripts/create-github-release.js",
 		"sync-google-fonts": "env-cmd --silent node scripts/sync-google-fonts.js",
 		"make-pr": "env-cmd --silent node scripts/make-pr.js",
-		"test": "NODE_ENV=test jest"
+		"test": "NODE_ENV=test jest",
+		"install": "npm install --legacy-peer-deps"
 	},
 	"dependencies": {
 		"@reach/dialog": "^0.1.2",
